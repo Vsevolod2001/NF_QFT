@@ -16,13 +16,16 @@ $$
 P(x)=\frac{\exp\left(-S(x)\right) }{Z}
 $$
 
-Функция $S(x)$ есть евклидово действие, её вид зависит от конкретной задачи. Например:
-	$$H=\frac{p^2}{2}+V(x) \qquad S=\sum_{i=1}^N \frac{\left(x_{i+1}-x_i\right)^2}{2a}+aV(x_i)$$
-  $$H=|p|+V(x) \qquad S=\sum_{i=1}^{N} \ln \left(1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2}\right)+aV(x_i)$$
-  $$H=\sqrt{p^2+1}+V(x)$$
-	$$S=\sum_{i=1}^N \ln\left(y_iK_1\left(ay_i\right)\right)+aV(x_i)      \qquad y_i=1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2} $$
-	$K_1$-функция Макдональда
-	$$\mbox{осциллятор:} \qquad V(x)=\frac{x^2}{2}$$
+Функция $S(x)$ есть евклидово действие, её вид зависит от конкретной задачи и определяется функцией гамильтона $H=T(p)+V(x)$. 
+Например:
+$$H=\frac{p^2}{2}+V(x) \qquad S=\sum_{i=1}^N \frac{\left(x_{i+1}-x_i\right)^2}{2a}+aV(x_i)$$
+$$H=|p|+V(x) \qquad S=\sum_{i=1}^{N}\left[ \ln \left(1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2}\right)+aV(x_i)\right]$$
+$$H=\sqrt{p^2+1}+V(x)$$
+$$S=\sum_{i=1}^N\left[\ln\left(y_iK_1\left(ay_i\right)\right)+aV(x_i)\right]      \qquad y_i=1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2} $$
+$K_1$-функция Макдональда
+$$\mbox{осциллятор:} \qquad V(x)=\frac{x^2}{2}$$
+
+
 
 
 
