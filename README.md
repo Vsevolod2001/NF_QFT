@@ -19,7 +19,7 @@ $$P(x)=\frac{\exp\left(-S(x)\right) }{Z}$$
 $$H=\frac{p^2}{2}+V(x) \qquad S=\sum_{i=1}^N \left[\frac{\left(x_{i+1}-x_i\right)^2}{2a}+aV(x_i)\right]$$
 $$H=|p|+V(x) \qquad S=\sum_{i=1}^{N}\left[ \ln \left(1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2}\right)+aV(x_i)\right]$$
 $$H=\sqrt{p^2+1}+V(x)$$
-$$S=\sum_{i=1}^N\left[\ln\left(y_iK_1\left(ay_i\right)\right)+aV(x_i)\right]      \qquad y_i=1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2} $$
+$$S=\sum_{i=1}^N\left[\ln \left(y_iK_1\left(ay_i\right)\right)+aV(x_i) \right]   \qquad y_i=1+\frac{\left(x_{i+1}-x_i\right)^2}{a^2} $$
 $K_1$-функция Макдональда
 $$\mbox{осциллятор:} \qquad V(x)=\frac{x^2}{2}$$
 
