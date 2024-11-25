@@ -1,6 +1,7 @@
 from System import System
 import numpy as np
 import torch
+from NFandist import calc_Z, get_A
 from LOSS import KL_with_S
 
 pi=torch.tensor(np.pi)
