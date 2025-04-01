@@ -5,7 +5,6 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from torch.utils.data import random_split
 import random
-from NFconstants import N_nod
 
 def set_random_seed(seed):
     torch.manual_seed(seed)

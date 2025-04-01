@@ -2,7 +2,6 @@ import torch
 from torch import nn
 import numpy as np
 pi=torch.tensor(np.pi)
-from NFconstants import N_nod
 
 
 

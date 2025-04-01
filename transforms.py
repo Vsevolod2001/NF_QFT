@@ -1,6 +1,5 @@
 import numpy as np
 import torch
-from NFconstants import N_nod
 def get_O(N):
     O=np.zeros((N,N))
     for k in range(N):
@@ -24,13 +23,13 @@ def get_O(N):
 def t_get_O(N):
     return torch.tensor(get_O(N)).float()
 
-def get_split_masks(dim=N_nod):
+def get_split_masks(dim):
     mask1=list(range(0,dim,2))
     mask2=list(range(1,dim,2))
     split_masks=[mask1,mask2]
     return split_masks 
 
-def get_pair_split_masks(dim=N_nod):
+def get_pair_split_masks(dim):
     mask1=list(range(0,dim,4))
     mask2=list(range(2,dim,4))
     mask1=(mask1+list(map(lambda x:x+1,mask1)))
